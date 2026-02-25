@@ -62,3 +62,39 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+:root {
+    /*colors*/
+    --clr-rose-800: #7A284E;
+    --clr-rose-50: #FFF7FB;
+    --clr-stone-900: #312E2C;
+    --clr-stone-600: #5F564D;
+    --clr-stone-150: #E3DDD7;
+    --clr-stone-100: #F3E5D7;
+    --clr-brown-800: #854632;
+
+    /*line height*/
+    --lh-100: 1;
+    --lh-150: 1.5;
+
+    /*text preset*/
+    --fs-xl: 2.5rem;
+    --fs-l: 1.75rem;
+    --fs-m: 1.25rem;
+    --fs-s: 1rem;
+
+    /*Font Wights*/
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /*Spacing*/
+    --sp-128: 8rem;
+    --sp-48: 3rem;
+    --sp-40: 2.5rem;
+    --sp-32: 2rem;
+    --sp-24: 1.5rem;
+    --sp-16: 1rem;
+    --sp-12: .75rem;
+    --sp-8: .5rem;
+}
