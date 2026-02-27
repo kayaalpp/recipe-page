@@ -109,3 +109,36 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.page {
+    width: 46rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: var(--sp-40);
+    color: var(--clr-stone-600);
+}
+
+img {
+    border-radius: .75rem;
+}
+
+h1 {
+    font-family: 'Young Serif', system-ui, sans-serif;
+    color: var(--clr-brown-800);
+}
+
+h2 {
+    font-family: 'Young Serif', system-ui, sans-serif;
+    color: var(--clr-brown-800);
+}
+
+.prep-time {
+    background-color: var(--clr-rose-50);
+    border-radius: .75rem;
+    padding: var(--sp-24);
+}
+
+.prep-time h2 {
+    font-family: 'Outfit';
+    font-weight: var(--fw-semibold);
+}
