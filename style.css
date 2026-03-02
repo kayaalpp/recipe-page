@@ -104,10 +104,17 @@ body {
     background-color: var(--clr-stone-100);
     min-height: 100vh;
     letter-spacing: 0px;
-    margin: 0;
+    margin: var(--sp-40);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 46rem;
 }
 
 .page {
@@ -202,4 +209,48 @@ td:last-child {
 
 .tablep {
     margin-bottom: var(--sp-12);
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page {
+        width: 38.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        padding-bottom: var(--sp-40);
+        background-color: white;
+        margin: 0;
+        width: 100%;
+    }
+
+    .page {
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    img {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: var(--sp-40);
+    }
+
+    .content {
+        padding: 0 var(--sp-32);
+    }
+
+
 }
