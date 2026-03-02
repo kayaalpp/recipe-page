@@ -142,3 +142,9 @@ h2 {
     font-family: 'Outfit';
     font-weight: var(--fw-semibold);
 }
+
+hr {
+    margin: var(--sp-32) 0;
+    border: none;
+    border-top: 1px solid var(--clr-stone-150);
+}
