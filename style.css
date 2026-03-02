@@ -178,6 +178,28 @@ ol li::marker {
     font-size: var(--fs-s);
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+td {
+    border-bottom: .0625rem solid var(--clr-stone-150);
+    padding: var(--sp-12) var(--sp-32);
+}
+
+td:last-child {
+    color: var(--clr-brown-800);
+    font-size: var(--fs-s);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0px;
+    line-height: var(--lh-150);
+}
+
 .tablep {
-    margin-bottom: var(--sp-24);
+    margin-bottom: var(--sp-12);
 }
